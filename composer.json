@@ -1,0 +1,32 @@
+{
+    "name": "canaryphp/canaryphpfile",
+    "type": "library",
+    "description": "CanaryPHPFile Simple File Managing for php",
+    "authors":[
+        {
+            "name": "Mohammed boubazine",
+            "email": "canaryphp@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "wiki": "https://github.com/canaryphp/canaryphpfile/wiki",
+        "issues": "https://github.com/canaryphp/canaryphpfile/issues"
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "canaryphp/canaryphptools": "^1.0"
+    },
+    "require-dev": {
+
+    },
+    "suggest": {
+        "canaryphp/canaryphptools": "Use some necessary properties"
+    },
+    "autoload": {
+		"psr-4": {
+            "CanaryPHPFile\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
